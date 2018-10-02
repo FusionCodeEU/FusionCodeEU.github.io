@@ -1,0 +1,5 @@
+site_name: open.fusioncode.eu
+nav:
+    - pdf-collection: index.md
+
+theme: readthedocs
