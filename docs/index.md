@@ -1,8 +1,8 @@
 ## Purpose
 The purpose of this tool is to control and improve the quality and consistency of collections with PDF files. For example directories with documents, e-book libraries et cetera. This command-line tool licensed under the MIT license and therefor free for personal and commercial use.
 
-## Features
-Currently the tool supports recursive PDF file detection and International Standard Book Number (ISBN) filename validation using the `--isbn-validate-filenames` argument and exporting results into a machine readable format like JavaScript Object Notation (JSON) using the argument `--machine`. Future features may include detection of natural language, the use of OCR and PDF JavaScript.
+## Current features
+Currently the tool supports recursive PDF file detection,  International Standard Book Number (ISBN) filename validation using the `--isbn-validate-filenames` argument and exporting results into a machine readable format like JavaScript Object Notation (JSON) using the `--machine` argument.
 
 This tool is originally written in JavaScript (node.js) and compiled for different platforms and architectures using [zeit/pkg](https://github.com/zeit/pkg).
 
@@ -36,3 +36,17 @@ Alpine       | [download](/assets/downloads/pdf-collection/v0.1-beta/pdfcollecti
 version 0.1-beta *(October 2th, 2018)*
 
 * Initial beta version (only PDF file detect and ISBN filename validation
+
+## Future features
+Future features may include:
+* file integrity checking
+* duplicate file locator
+* detection of natural language
+* detection of OCR-usage
+* detection of (potentially dangerous) JavaScript
+* detection of protection
+* detection of wrongly rotated pages
+* OCR
+* e-book ISBN detection
+* e-book cover detection
+* other machine readable formats such as XML, CSV or SQL
