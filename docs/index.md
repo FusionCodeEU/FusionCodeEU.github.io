@@ -1,16 +1,6 @@
 ## Purpose
 The purpose of this tool is to control and improve the quality and consistency of collections with PDF files. Even when the collection is a massive unstructured mess. Collections include but are not limited to directories with documents, e-book libraries et cetera. This command-line tool and it's embedded dependencies are all licensed under the MIT license and therefor free for personal and commercial use.
 
-## Options
-Currently the tool supports recursive PDF file detection starting from the path specified in the `--directory=...` argument. International Standard Book Number (ISBN) filename validation using the `--isbn-validate-filenames` argument and exporting the invalid ISBN filepaths into one of the following machine readable data formats:
-* JavaScript Object Notation (JSON) using `--machine-json`
-* Extensible Markup Language (XML) using `--machine-xml`
-* YAML Ain't Markup Language (YAML) using `--machine-yaml`
-
-Choosing a machine readable data format will only work combination with the argument `--machine-print` or `--machine-file=...`.
-
-Furthermore the options `--verbose`, `--version`, `--license` and `--help` are available. See `--help` for more information regarding the use of this tool.
-
 ## Download
 The current version of this tool is `0.2-beta`. The tool is available for the x64 (64-bit) and x86 (32-bit) architectures of the `windows`, `linux` and `macos` platforms. The binary for `alpine` is x64-only. *If you're not sure which architecture to use, use the x86 version (it works on both).*
 
@@ -21,13 +11,25 @@ Linux        | [download](/assets/downloads/pdf-collection/v0.2-beta/pdfcollecti
 MacOS        | [download](/assets/downloads/pdf-collection/v0.2-beta/pdfcollection-v0.2-beta-macos-x64) (34mb) | [download](/assets/downloads/pdf-collection/v0.2-beta/pdfcollection-v0.2-beta-macos-x86) (30mb)
 Alpine       | [download](/assets/downloads/pdf-collection/v0.2-beta/pdfcollection-v0.2-beta-alpine-x64) (35mb) | *n/a*
 
-Older versions can be found on the [versions](versions.md) page.
+*Older versions can be found on the [older versions](versions.md) page.*
+
 
 ## Usage
+Steps to get started:
 1. Download the tool
 2. Verify the SHA1 checksum
 3. Rename the downloaded binary to `pdfcollection`
-4. Run `pdfcollection --help` to get started
+4. Run `pdfcollection --help`
+
+### Options
+Currently the tool supports recursive PDF file detection starting from the path specified in the `--directory=...` argument. International Standard Book Number (ISBN) filename validation using the `--isbn-validate-filenames` argument and exporting the invalid ISBN filepaths into one of the following machine readable data formats:
+* JavaScript Object Notation (JSON) using `--machine-json`
+* Extensible Markup Language (XML) using `--machine-xml`
+* YAML Ain't Markup Language (YAML) using `--machine-yaml`
+
+Choosing a machine readable data format will only work combination with the argument `--machine-print` or `--machine-file=...`.
+
+Furthermore the options `--verbose`, `--version`, `--license` and `--help` are available. See `--help` for more information regarding the use of this tool.
 
 ## SHA1 checksums
     f413d23b304e7e30ffa98c58c6888e9b244587dc *pdfcollection-v0.2-beta-alpine-x64
