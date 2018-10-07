@@ -5,6 +5,7 @@ The tool is available for the x64 (64-bit) and x86 (32-bit) architectures of the
 
 ## pdfcollection v0.2-beta
 ### Download
+
 **Platform** | **x64**       | **x86**
 :----------- |:-------------:| :-----------:
 Windows      | [download](/assets/downloads/pdf-collection/v0.1-beta/pdfcollection-v0.1-beta-win-x64.exe) (22mb) | [download](/assets/downloads/pdf-collection/v0.1-beta/pdfcollection-v0.1-beta-win-x86.exe) (18mb)
@@ -23,6 +24,7 @@ Alpine       | [download](/assets/downloads/pdf-collection/v0.1-beta/pdfcollecti
 
 ## pdfcollection v0.1-beta
 ### Download
+
 **Platform** | **x64**       | **x86**
 :----------- |:-------------:| :-----------:
 Windows      | [download](/assets/downloads/pdf-collection/v0.1-beta/pdfcollection-v0.1-beta-win-x64.exe) (22mb) | [download](/assets/downloads/pdf-collection/v0.1-beta/pdfcollection-v0.1-beta-win-x86.exe) (18mb)
