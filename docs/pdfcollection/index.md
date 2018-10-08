@@ -7,10 +7,10 @@ The current version of this tool is `0.4-beta`. The tool is available for the pl
 
 **Platform** | **x64**       | **x86**
 :----------- |:-------------:| :-----------:
-Windows      | [download](/pdfcollection/downloads/v0.4-beta/pdfcollection-v0.4-beta-win-x64.exe) (22mb) | [download](/pdfcollection/downloads/v0.4-beta/pdfcollection-v0.4-beta-win-x86.exe) (18mb)
-Linux        | [download](/pdfcollection/downloads/v0.4-beta/pdfcollection-v0.4-beta-linux-x64) (33mb) | [download](/pdfcollection/downloads/v0.4-beta/pdfcollection-v0.4-beta-linux-x86) (32mb)
-MacOS        | [download](/pdfcollection/downloads/v0.4-beta/pdfcollection-v0.4-beta-macos-x64) (34mb) | [download](/pdfcollection/downloads/v0.4-beta/pdfcollection-v0.4-beta-macos-x86) (30mb)
-Alpine       | [download](/pdfcollection/downloads/v0.4-beta/pdfcollection-v0.4-beta-alpine-x64) (35mb) | *n/a*
+Windows      | [download](/docs/pdfcollection/downloads/v0.4-beta/pdfcollection-v0.4-beta-win-x64.exe) (22mb) | [download](/docs/pdfcollection/downloads/v0.4-beta/pdfcollection-v0.4-beta-win-x86.exe) (18mb)
+Linux        | [download](/docs/pdfcollection/downloads/v0.4-beta/pdfcollection-v0.4-beta-linux-x64) (33mb) | [download](/docs/pdfcollection/downloads/v0.4-beta/pdfcollection-v0.4-beta-linux-x86) (32mb)
+MacOS        | [download](/docs/pdfcollection/downloads/v0.4-beta/pdfcollection-v0.4-beta-macos-x64) (34mb) | [download](/docs/pdfcollection/downloads/v0.4-beta/pdfcollection-v0.4-beta-macos-x86) (30mb)
+Alpine       | [download](/docs/pdfcollection/downloads/v0.4-beta/pdfcollection-v0.4-beta-alpine-x64) (35mb) | *n/a*
 
 *Previous versions are no longer available for download. But the checksums can still be verified on the [checksum](/docs/pdfcollection/checksums) page.*
 
