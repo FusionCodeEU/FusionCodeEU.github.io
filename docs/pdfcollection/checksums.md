@@ -1,5 +1,5 @@
 # pdfcollection
-The latest version of pdfcollection can be found on the [homepage](/).
+The latest version of pdfcollection can be found on the [homepage](/pdfcollection).
 
 ## SHA1 checksums of previous versions
 
