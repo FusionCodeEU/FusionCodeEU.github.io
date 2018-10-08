@@ -77,18 +77,25 @@ Steps to get started:
     * Export data in JSON format
 
 ## Future features
-    Future features may include:
-    * file integrity checking
-    * duplicate file locator
+Future features may or may not include:
+    * file integrity/corruption checking
+    * PDF/A validation
+    * additional methods of locating (possible) duplicate files
     * detection of natural language
     * detection of OCR-usage
     * detection of (potentially dangerous) JavaScript
-    * detection of protection
-    * detection of wrongly rotated pages
+    * detection of PDF protection
     * OCR
+    * fuzzy scan detection
+    * automatic page rotation
+    * automatic page dewarping
+    * detection of wrongly rotated pages
+    * barcode detection
     * e-book ISBN detection
     * e-book cover detection
-    * additional machine readable formats
+    * additional machine readable formats (like CSON)
+    * additional export formats like (TXT, HTML, PDF, CSV or XLS)
+    * spelling checker
 
 ## MIT license
 Copyright 2018 - fusioncode.eu
