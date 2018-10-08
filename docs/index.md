@@ -1,19 +1,18 @@
-# pdfcollection v0.3-beta
+# pdfcollection v0.4-beta
 ## General
 The purpose of this command-line tool is to control and improve the quality and consistency of collections with Portable Document Format (PDF) files. Even when the collection is a massive unstructured mess. Collections include but are not limited to directories with documents, e-book libraries et cetera. This tool and it's embedded dependencies are all licensed under the MIT license and therefor free for personal and commercial use.
 
 ## Download
-The current version of this tool is `0.3-beta`. The tool is available for the x64 (64-bit) and x86 (32-bit) architectures of the `windows`, `linux` and `macos` platforms. The binary for `alpine` is x64-only. *If you're not sure which architecture to use, use the x86 version (it works on both).*
+The current version of this tool is `0.4-beta`. The tool is available for the x64 (64-bit) and x86 (32-bit) architectures of the `windows`, `linux` and `macos` platforms. The binary for `alpine` is x64-only. *If you're not sure which architecture to use, use the x86 version (it works on both).*
 
 **Platform** | **x64**       | **x86**
 :----------- |:-------------:| :-----------:
-Windows      | [download](/assets/downloads/pdf-collection/v0.3-beta/pdfcollection-v0.3-beta-win-x64.exe) (22mb) | [download](/assets/downloads/pdf-collection/v0.3-beta/pdfcollection-v0.3-beta-win-x86.exe) (18mb)
-Linux        | [download](/assets/downloads/pdf-collection/v0.3-beta/pdfcollection-v0.3-beta-linux-x64) (33mb) | [download](/assets/downloads/pdf-collection/v0.3-beta/pdfcollection-v0.3-beta-linux-x86) (32mb)
-MacOS        | [download](/assets/downloads/pdf-collection/v0.3-beta/pdfcollection-v0.3-beta-macos-x64) (34mb) | [download](/assets/downloads/pdf-collection/v0.3-beta/pdfcollection-v0.3-beta-macos-x86) (30mb)
-Alpine       | [download](/assets/downloads/pdf-collection/v0.3-beta/pdfcollection-v0.3-beta-alpine-x64) (35mb) | *n/a*
+Windows      | [download](/assets/downloads/pdf-collection/v0.4-beta/pdfcollection-v0.4-beta-win-x64.exe) (22mb) | [download](/assets/downloads/pdf-collection/v0.4-beta/pdfcollection-v0.4-beta-win-x86.exe) (18mb)
+Linux        | [download](/assets/downloads/pdf-collection/v0.4-beta/pdfcollection-v0.4-beta-linux-x64) (33mb) | [download](/assets/downloads/pdf-collection/v0.4-beta/pdfcollection-v0.4-beta-linux-x86) (32mb)
+MacOS        | [download](/assets/downloads/pdf-collection/v0.4-beta/pdfcollection-v0.4-beta-macos-x64) (34mb) | [download](/assets/downloads/pdf-collection/v0.4-beta/pdfcollection-v0.4-beta-macos-x86) (30mb)
+Alpine       | [download](/assets/downloads/pdf-collection/v0.4-beta/pdfcollection-v0.4-beta-alpine-x64) (35mb) | *n/a*
 
-*Previous versions can be found on the [previous versions](versions.md) page.*
-
+*Previous versions are no longer available for download. But the checksums can still be verified on the [previous versions](versions.md) page.*
 
 ## Usage
 Steps to get started:
@@ -30,8 +29,9 @@ Steps to get started:
 
 #### ISBN options
 * `--isbn-validate-filenames` Perform ISBN-10 and ISBN-13 validation on filenames
+* `--isbn-duplicate-filenames` Cross-checking ISBN filenames with ISBN-10 and ISBN-13
 
-#### Machine readable data options
+#### Export options (machine readable data)
 * `--machine-file` Suppress normal output and write data in chosen format to specified file path
 * `--machine-print` Suppress normal output and print machine readable data in chosen format
 * `--machine-json` Use JavaScript Object Notation (JSON)
@@ -45,15 +45,18 @@ Steps to get started:
 * `--license` Show tool license
 
 ## SHA1 checksums
-    fb59603d289701166d0122b0dda373dd96ee1a8d *pdfcollection-v0.3-alpine-x64
-    009fccf7c40b6c6d4f1704a7b51d9f0c63bd468a *pdfcollection-v0.3-linux-x64
-    ec36c7a13384bf3b5621e04a9bdd6861b296509b *pdfcollection-v0.3-linux-x86
-    2bc57a364076117d9d1e3375a6ff6393e9d92993 *pdfcollection-v0.3-macos-x64
-    9a56e42113e1888a5beeabe41e73d5b50247201c *pdfcollection-v0.3-macos-x86
-    eadb5df28c341c719250205772c36f2d706211c0 *pdfcollection-v0.3-win-x64.exe
-    ae35f1ad105b21de09163f6e8a6c6b7af508dfe8 *pdfcollection-v0.3-win-x86.exe
+    611d103708e8280de8e626129b875ce0194b4d26 *pdfcollection-v0.4-beta-alpine-x64
+    7211070c115081eae07d41179eaa11f5e6925bb1 *pdfcollection-v0.4-beta-linux-x64
+    cc9339c5001699605c6575d1dfa83fc9c657b7c5 *pdfcollection-v0.4-beta-linux-x86
+    5c88d0b85db6aac0bd5deff34d32613677bcaf99 *pdfcollection-v0.4-beta-macos-x64
+    0a4de8839ab1000eac1a5da4c247998f8c666f48 *pdfcollection-v0.4-beta-macos-x86
+    f329210701827a2d1469049f8dd02b710ba3e027 *pdfcollection-v0.4-beta-win-x64.exe
+    64ec490bc05a3087760e472c91cf796b3cb165b1 *pdfcollection-v0.4-beta-win-x86.exe
 
 ## Changelog
+    version 0.4-beta *(October 8th, 2018)*
+    * Added `--isbn-duplicate-filenames` for cross-checking ISBN filenames with ISBN-10 and ISBN-13
+
     version 0.3-beta *(October 7th, 2018)*
     * Added `--duplicates` option for finding identical files (using SHA1 hashing)
     * Added `--machine-toml` for supporting machine readable output in Tom's Obvious, Minimal Language (TOML)

@@ -1,19 +1,18 @@
-# Previous versions of pdfcollection
+# pdfcollection
 The latest version of pdfcollection can be found on the [homepage](/).
 
-The tool is available for the x64 (64-bit) and x86 (32-bit) architectures of the `windows`, `linux` and `macos` platforms. The binary for `alpine` is x64-only. *If you're not sure which architecture to use, use the x86 version (it works on both).*
+## SHA1 checksums of previous versions
 
-## pdfcollection v0.2-beta
-### Download
+### pdfcollection v0.3-beta
+    fb59603d289701166d0122b0dda373dd96ee1a8d *pdfcollection-v0.3-alpine-x64
+    009fccf7c40b6c6d4f1704a7b51d9f0c63bd468a *pdfcollection-v0.3-linux-x64
+    ec36c7a13384bf3b5621e04a9bdd6861b296509b *pdfcollection-v0.3-linux-x86
+    2bc57a364076117d9d1e3375a6ff6393e9d92993 *pdfcollection-v0.3-macos-x64
+    9a56e42113e1888a5beeabe41e73d5b50247201c *pdfcollection-v0.3-macos-x86
+    eadb5df28c341c719250205772c36f2d706211c0 *pdfcollection-v0.3-win-x64.exe
+    ae35f1ad105b21de09163f6e8a6c6b7af508dfe8 *pdfcollection-v0.3-win-x86.exe
 
-**Platform** | **x64**       | **x86**
-:----------- |:-------------:| :-----------:
-Windows      | [download](/assets/downloads/pdf-collection/v0.1-beta/pdfcollection-v0.1-beta-win-x64.exe) (22mb) | [download](/assets/downloads/pdf-collection/v0.1-beta/pdfcollection-v0.1-beta-win-x86.exe) (18mb)
-Linux        | [download](/assets/downloads/pdf-collection/v0.1-beta/pdfcollection-v0.1-beta-linux-x64) (33mb) | [download](/assets/downloads/pdf-collection/v0.1-beta/pdfcollection-v0.1-beta-linux-x86) (32mb)
-MacOS        | [download](/assets/downloads/pdf-collection/v0.1-beta/pdfcollection-v0.1-beta-macos-x64) (34mb) | [download](/assets/downloads/pdf-collection/v0.1-beta/pdfcollection-v0.1-beta-macos-x86) (30mb)
-Alpine       | [download](/assets/downloads/pdf-collection/v0.1-beta/pdfcollection-v0.1-beta-alpine-x64) (35mb) | *n/a*
-
-### SHA1 checksums
+### pdfcollection v0.2-beta
     f413d23b304e7e30ffa98c58c6888e9b244587dc *pdfcollection-v0.2-beta-alpine-x64
     a8956a8ed424601d494a3fab0867fb0f524943e6 *pdfcollection-v0.2-beta-linux-x64
     706924ae70bd9384809a165c9ac0d5bd38859dec *pdfcollection-v0.2-beta-linux-x86
@@ -22,17 +21,7 @@ Alpine       | [download](/assets/downloads/pdf-collection/v0.1-beta/pdfcollecti
     2e6c802ce202822da9cfc20ab4d854f0f636131a *pdfcollection-v0.2-beta-win-x64.exe
     6f7c0faaa44071c1515509907fd3e753b5794774 *pdfcollection-v0.2-beta-win-x86.exe
 
-## pdfcollection v0.1-beta
-### Download
-
-**Platform** | **x64**       | **x86**
-:----------- |:-------------:| :-----------:
-Windows      | [download](/assets/downloads/pdf-collection/v0.1-beta/pdfcollection-v0.1-beta-win-x64.exe) (22mb) | [download](/assets/downloads/pdf-collection/v0.1-beta/pdfcollection-v0.1-beta-win-x86.exe) (18mb)
-Linux        | [download](/assets/downloads/pdf-collection/v0.1-beta/pdfcollection-v0.1-beta-linux-x64) (33mb) | [download](/assets/downloads/pdf-collection/v0.1-beta/pdfcollection-v0.1-beta-linux-x86) (32mb)
-MacOS        | [download](/assets/downloads/pdf-collection/v0.1-beta/pdfcollection-v0.1-beta-macos-x64) (34mb) | [download](/assets/downloads/pdf-collection/v0.1-beta/pdfcollection-v0.1-beta-macos-x86) (30mb)
-Alpine       | [download](/assets/downloads/pdf-collection/v0.1-beta/pdfcollection-v0.1-beta-alpine-x64) (35mb) | *n/a*
-
-### SHA1 checksums
+### pdfcollection v0.1-beta
     d6a82459a145b59c530a462952f2de37ba746eb2 pdfcollection-v0.1-beta-alpine-x64
     a1729ef81cff8c81c525c18dbcb352780a97ba39 pdfcollection-v0.1-beta-linux-x64
     ddb773a6d4c8f4a883a48b1da37fecc53b6f617c pdfcollection-v0.1-beta-linux-x86
