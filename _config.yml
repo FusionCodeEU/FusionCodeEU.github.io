@@ -1,5 +1,8 @@
 title: open.fusioncode.eu
 theme: jekyll-theme-architect
-# google_analytics: "UA-127076897-2"
-gtag: "UA-127076897-2"
-gtm: "GTM-MJ4J7HQ"
+analytics :
+  provider : google_tags
+  google :
+      tracking_id : 'UA-127076897-2'
+  google_tags :
+      tag_id : 'GTM-MJ4J7HQ'
