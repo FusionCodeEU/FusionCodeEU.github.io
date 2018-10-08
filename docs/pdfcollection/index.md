@@ -78,6 +78,7 @@ Steps to get started:
 
 ## Future features
 Future features may or may not include:
+
     * file integrity/corruption checking
     * PDF/A validation
     * additional methods of locating (possible) duplicate files
