@@ -12,7 +12,7 @@ Linux        | [download](/pdfcollection/downloads/v0.4-beta/pdfcollection-v0.4-
 MacOS        | [download](/pdfcollection/downloads/v0.4-beta/pdfcollection-v0.4-beta-macos-x64) (34mb) | [download](/pdfcollection/downloads/v0.4-beta/pdfcollection-v0.4-beta-macos-x86) (30mb)
 Alpine       | [download](/pdfcollection/downloads/v0.4-beta/pdfcollection-v0.4-beta-alpine-x64) (35mb) | *n/a*
 
-*Previous versions are no longer available for download. But the checksums can still be verified on the [checksum](/docs/pdfcollection/checksums.md) page.*
+*Previous versions are no longer available for download. But the checksums can still be verified on the [checksum](/docs/pdfcollection/checksums) page.*
 
 ## Usage
 Steps to get started:
