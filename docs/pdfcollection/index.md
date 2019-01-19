@@ -3,57 +3,63 @@
 The purpose of this command-line tool is to control and improve the quality and consistency of collections with Portable Document Format (PDF) files. Even when the collection is a massive unstructured mess. Collections include but are not limited to directories with documents, e-book libraries et cetera. This tool and it's embedded dependencies are all licensed under the MIT license and therefor free for personal and commercial use.
 
 ## Download
-The current version of this tool is `0.4-beta`. The tool is available for the platforms `windows`, `linux` and `macos` for the architectures x64 (64-bit) and x86 (32-bit). The `alpine`-platform is x64-only. *If you're not sure which architecture to use, use the x86 version (it works on both).*
+The current version of this tool is `0.5.0 (beta)`. The tool is available for the platforms `windows`, `linux` and `macos` for the architectures x64 (64-bit) and x86 (32-bit). The `alpine`-platform is x64-only. *If you're not sure which architecture to use, use the x86 version (it works on both).*
 
 **Platform** | **x64**       | **x86**
 :----------- |:-------------:| :-----------:
-Windows      | [download](/docs/pdfcollection/downloads/v0.4-beta/pdfcollection-v0.4-beta-win-x64.exe) (22mb) | [download](/docs/pdfcollection/downloads/v0.4-beta/pdfcollection-v0.4-beta-win-x86.exe) (18mb)
-Linux        | [download](/docs/pdfcollection/downloads/v0.4-beta/pdfcollection-v0.4-beta-linux-x64) (33mb) | [download](/docs/pdfcollection/downloads/v0.4-beta/pdfcollection-v0.4-beta-linux-x86) (32mb)
-MacOS        | [download](/docs/pdfcollection/downloads/v0.4-beta/pdfcollection-v0.4-beta-macos-x64) (34mb) | [download](/docs/pdfcollection/downloads/v0.4-beta/pdfcollection-v0.4-beta-macos-x86) (30mb)
-Alpine       | [download](/docs/pdfcollection/downloads/v0.4-beta/pdfcollection-v0.4-beta-alpine-x64) (35mb) | *n/a*
+Windows      | [download](/docs/pdfcollection/downloads/0.5.0/win/x64/pdfcollection.zip) | [download](/docs/pdfcollection/downloads/0.5.0/win/x86/pdfcollection.zip)
+Linux        | [download](/docs/pdfcollection/downloads/0.5.0/linux/x64/pdfcollection.zip) | [download](/docs/pdfcollection/downloads/0.5.0/linux/x86/pdfcollection.zip)
+MacOS        | [download](/docs/pdfcollection/downloads/0.5.0/macos/x64/pdfcollection.zip) | [download](/docs/pdfcollection/downloads/0.5.0/macos/x86/pdfcollection.zip)
+Alpine       | [download](/docs/pdfcollection/downloads/0.5.0/alpine/x64/pdfcollection.zip) | *n/a*
 
 *Previous versions are no longer available for download. But the checksums can still be verified on the [checksum](/docs/pdfcollection/checksums) page.*
 
-## Usage
-Steps to get started:
+## Get started
 1. Download the tool
 2. Verify the SHA1 checksum
-3. Rename the downloaded binary to `pdfcollection`
-4. Run `pdfcollection --help`
+3. Run `pdfcollection --help` to get started
 
 ### Options
-#### General options
-* `--directory` The directory of the PDF collection
+#### Detection
+* `--directory` The directory of the PDF collection (recursive scan)
 * `--duplicates` Find duplicate files based on SHA1 hashing
-* `--verbose` Amount of information printed (1=less, 2=normal, 3=more, 9=debug)
+* `--isbn-file-validate` Validate ISBN-10 or ISBN-13 in filenames
+* `--isbn-file-duplicate` Find duplicate ISBN filenames (cross-check ISBN-10 and ISBN-13)
+* `--mime` Validate magic-byte (mime-type) and warns about small file sizes
 
-#### ISBN options
-* `--isbn-validate-filenames` Perform ISBN-10 and ISBN-13 validation on filenames
-* `--isbn-duplicate-filenames` Cross-checking ISBN filenames with ISBN-10 and ISBN-13
+#### Exporting
+* `--output-file` Write results to chosen data format
+* `--data-json` Use JavaScript Object Notation (JSON)
+* `--data-xml` Use Extensible Markup Language (XML)
+* `--data-yaml` Use YAML Ain't Markup Language (YAML)
+* `--data-toml` Use Tom's Obvious, Minimal Language (TOML)
 
-#### Export options (machine readable data)
-* `--machine-file` Suppress normal output and write data in chosen format to specified file path
-* `--machine-print` Suppress normal output and print machine readable data in chosen format
-* `--machine-json` Use JavaScript Object Notation (JSON)
-* `--machine-xml` Use Extensible Markup Language (XML)
-* `--machine-yaml` Use YAML Ain't Markup Language (YAML)
-* `--machine-toml` Use Tom's Obvious, Minimal Language (TOML)
+#### Other
+* `--help` Help guide
+* `--quiet` Suppress console output
+* `--version` Version and credits
+* `--license` Licenses of tool and dependencies
 
-#### Other options
-* `--help` Show help guide
-* `--version` Show the version of the tool and platform and show (dependency) credits
-* `--license` Show tool license
+## Verify your downloads
+Below are the SHA1 hashes of the compiled and compressed files.
 
-## SHA1 checksums
-    611d103708e8280de8e626129b875ce0194b4d26 *pdfcollection-v0.4-beta-alpine-x64
-    7211070c115081eae07d41179eaa11f5e6925bb1 *pdfcollection-v0.4-beta-linux-x64
-    cc9339c5001699605c6575d1dfa83fc9c657b7c5 *pdfcollection-v0.4-beta-linux-x86
-    5c88d0b85db6aac0bd5deff34d32613677bcaf99 *pdfcollection-v0.4-beta-macos-x64
-    0a4de8839ab1000eac1a5da4c247998f8c666f48 *pdfcollection-v0.4-beta-macos-x86
-    f329210701827a2d1469049f8dd02b710ba3e027 *pdfcollection-v0.4-beta-win-x64.exe
-    64ec490bc05a3087760e472c91cf796b3cb165b1 *pdfcollection-v0.4-beta-win-x86.exe
+    4911590344ed1109e8aa41099dcb542238eb1a47 - 0.5.0/alpine/x64/pdfcollection.zip
+    0f47f7a81abc17deeb41e5b2950f199d6504c13c - 0.5.0/linux/x64/pdfcollection.zip
+    3b94a3ffad08c09a7e005e490837cfce0a7fea90 - 0.5.0/linux/x86/pdfcollection.zip
+    4d04e640f7a724bffa1ee780239bc1f88748798f - 0.5.0/macos/x64/pdfcollection.zip
+    60cb2eef39630336b8abc8f723db5f6706b8a03e - 0.5.0/macos/x86/pdfcollection.zip
+    269a6f4eab8bd9afe15d6bcc94a85e2d6cc0762e - 0.5.0/win/x64/pdfcollection.zip
+    124b10cb7c27def303a10da0e3323b7adbd75080 - 0.5.0/win/x86/pdfcollection.zip
 
 ## Changelog
+    version 0.5.0 (beta) *(January 19th, 2019)*
+    * Added functionality to detect incorrect magic-bytes (mime-types) and small file sizes
+    * Renamed several options (always see `--help` for the latest)
+    * Several minor bugfixes
+    * Performance improvements
+    * Updated dependencies
+    * Improved documentation
+
     version 0.4-beta *(October 8th, 2018)*
     * Added `--isbn-duplicate-filenames` for cross-checking ISBN filenames with ISBN-10 and ISBN-13
 
@@ -99,7 +105,7 @@ Future features may or may not include:
     * spelling checker
 
 ## MIT license
-Copyright 2018 - fusioncode.eu
+Copyright 2018-2019 - fusioncode.eu
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 

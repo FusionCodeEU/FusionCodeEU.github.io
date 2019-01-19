@@ -2,6 +2,14 @@
 The latest version of pdfcollection can be found on the [homepage](/docs/pdfcollection).
 
 ## SHA1 checksums of previous versions
+### pdfcollection v0.4-beta
+    611d103708e8280de8e626129b875ce0194b4d26 *pdfcollection-v0.4-beta-alpine-x64
+    7211070c115081eae07d41179eaa11f5e6925bb1 *pdfcollection-v0.4-beta-linux-x64
+    cc9339c5001699605c6575d1dfa83fc9c657b7c5 *pdfcollection-v0.4-beta-linux-x86
+    5c88d0b85db6aac0bd5deff34d32613677bcaf99 *pdfcollection-v0.4-beta-macos-x64
+    0a4de8839ab1000eac1a5da4c247998f8c666f48 *pdfcollection-v0.4-beta-macos-x86
+    f329210701827a2d1469049f8dd02b710ba3e027 *pdfcollection-v0.4-beta-win-x64.exe
+    64ec490bc05a3087760e472c91cf796b3cb165b1 *pdfcollection-v0.4-beta-win-x86.exe
 
 ### pdfcollection v0.3-beta
     fb59603d289701166d0122b0dda373dd96ee1a8d *pdfcollection-v0.3-alpine-x64
