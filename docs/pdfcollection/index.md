@@ -1,6 +1,6 @@
 # pdfcollection
 ## General
-The purpose of this command-line tool is to control and improve the quality and consistency of collections with Portable Document Format (PDF) files. Even when the collection is a massive unstructured mess. Collections include but are not limited to directories with documents, e-book libraries et cetera. This tool and it's embedded dependencies are all licensed under the MIT license and therefor free for personal and commercial use.
+The purpose of this command-line tool is to control and improve the quality and consistency of collections with Portable Document Format (PDF) files. Collections include but are not limited to directories with documents, e-book libraries et cetera. This tool and it's embedded dependencies are all licensed under the MIT license and therefor free for personal and commercial use.
 
 ## Download
 The current version of this tool is `0.5.1 (beta)`. The tool is available for the platforms `windows`, `linux` and `macos` for the architectures x64 (64-bit) and x86 (32-bit). The `alpine`-platform is x64-only. *If you're not sure which architecture to use, use the x86 version (it works on both).*
